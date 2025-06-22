@@ -1,0 +1,82 @@
+/* Overordnet layout */
+.email-wrapper-light {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Nimbus-Sans-Extended;
+  color: #000;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Topbjælke */
+.email-topbar-light {
+  background: #ececec;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Venstre knapgruppe */
+.email-left-controls-light {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+/* Højre ikonrække */
+.email-right-controls-light {
+  display: flex;
+  gap: 8px;
+}
+
+/* Røde/gule/grønne knapper */
+.email-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.dot-red { background: #ff605c; }
+.dot-yellow { background: #ffbd44; }
+.dot-green { background: #00ca4e; }
+
+/* Ikoner som knapper */
+.email-icon-light {
+  font-size: 20px;
+  color: #555;
+  padding: 6px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.06);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.email-icon-light:hover {
+  background: rgba(0, 0, 0, 0.15);
+  color: #000;
+  cursor: pointer;
+}
+
+/* E-mailfelter */
+.email-fields-light {
+  padding: 0px 0px 10px 10px;
+}
+.email-field-light {
+  border-bottom: 1px solid #ececec;
+  padding: 10px 0;
+}
+.email-tag-light {
+  background: #dce6f8;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Mailtekst */
+.email-body-light {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
